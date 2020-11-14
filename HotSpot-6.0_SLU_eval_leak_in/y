@@ -1,0 +1,1386 @@
+Binary file flp.o matches
+gen_x:echo "model_secondary:" > x
+gen_x:grep -ir "model_secondary" *.c	>> x
+Binary file hotfloorplan matches
+Binary file hotfloorplan.o matches
+Binary file hotspot matches
+hotspot.config:	# secondary path (C4/underfill, package substrate, solder balls etc)
+hotspot.config:		# model secondary path or not?
+hotspot.config:		-model_secondary	0
+hotspot-iface.h:	int model_secondary;
+Binary file hotspot.o matches
+HOWTO:        5) The secondary heat transfer path
+HOWTO:5. The secondary heat transfer path:
+HOWTO:HotSpot also models the secondary heat transfer path from the silicon 
+HOWTO:with forced air-convection, the effect of secondary heat transfer path 
+HOWTO:oil flow for infrared thermal measurements, secondary heat transfer
+HOWTO:the secondary path:
+HOWTO:					 -model_secondary 1 -model_type grid
+Binary file libhotspot.a matches
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary){
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+LocalPatches/Original/temperature_grid.c:      if(model_secondary){
+LocalPatches/Original/temperature_grid.c:      //if (model_secondary && (i == pcbidx)){
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+LocalPatches/Original/temperature_grid.c:  if (model_secondary) {		
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if (model_secondary){
+LocalPatches/Original/temperature_grid.c:      if(model_secondary){
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if (model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+LocalPatches/Original/temperature_grid.c:      if (!model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+LocalPatches/Original/temperature_grid.c:      if (!model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:      /* secondary path package nodes */
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+LocalPatches/Original/temperature_grid.c:              } else if ((n==subidx) && model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:              } else if ((n==solderidx) && model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:              } else if ((n==pcbidx) && model->config.model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) 
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+LocalPatches/Original/temperature_grid.c:          }	else if (n == pcbidx && model_secondary) {
+LocalPatches/Original/temperature_grid.c:          }	else if (n == subidx && model_secondary) {
+LocalPatches/Original/temperature_grid.c:          }	else if (n == solderidx && model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+LocalPatches/Original/temperature_grid.c:      /* secondary path package nodes */
+LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/Original/temperature_grid.c:  if(model_secondary)
+LocalPatches/Original/temperature_grid.c:          else if((l == pcbidx) && model_secondary){
+LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:      if(model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:      //if (model_secondary && (i == pcbidx)){
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {		
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:      if(model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:      if (!model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:      if (!model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:      /* secondary path package nodes */
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:              } else if ((n==subidx) && model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:              } else if ((n==solderidx) && model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:              } else if ((n==pcbidx) && model->config.model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) 
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:          }	else if (n == pcbidx && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:          }	else if (n == subidx && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:          }	else if (n == solderidx && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:      /* secondary path package nodes */
+LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary)
+LocalPatches/All_Layers/temperature_grid.c:          else if((l == pcbidx) && model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:      if(model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:      //if (model_secondary && (i == pcbidx)){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {		
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:      if(model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:      if (!model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:      if (!model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:      /* secondary path package nodes */
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:              } else if ((n==subidx) && model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:              } else if ((n==solderidx) && model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:              } else if ((n==pcbidx) && model->config.model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) 
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:          }	else if (n == pcbidx && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:          }	else if (n == subidx && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:          }	else if (n == solderidx && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:      /* secondary path package nodes */
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:          else if((l == pcbidx) && model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:      if(model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:      //if (model_secondary && (i == pcbidx)){
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {		
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:      if(model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:      if (!model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:      if (!model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:      /* secondary path package nodes */
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:              } else if ((n==subidx) && model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:              } else if ((n==solderidx) && model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:              } else if ((n==pcbidx) && model->config.model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) 
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:          }	else if (n == pcbidx && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:          }	else if (n == subidx && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:          }	else if (n == solderidx && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:      /* secondary path package nodes */
+LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary)
+LocalPatches/L2/Changes/New/temperature_grid.c:          else if((l == pcbidx) && model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+oil_bare_silicon.config:# It demonstrates the importance of secondary heat transfer path 
+oil_bare_silicon.config:	# secondary path (C4/underfill, package substrate, solder balls etc)
+oil_bare_silicon.config:		# model secondary path or not?
+oil_bare_silicon.config:		-model_secondary	1
+Binary file package.o matches
+README-6.0:4) Secondary heat transfer path compatible with 3D.
+README-6.0:Previous version does not support secondary heat transfer path when .lcf file is specified.
+README-6.0:This version relaxes this constraint and now secondary heat transfer path can be modeled along
+README_archive/README-5.0:2) New Feature #2: Secondary heat transfer path
+README_archive/README-5.0:OPTIONAL: Package layers along the secondary heat tranfer path 
+README_archive/README-5.0:secondary heat transfer path can be neglected. However, in special cases 
+README_archive/README-5.0:such as oil flow over bare silicon die, the secondary heat transfer path
+README_archive/README-5.0:paper). To enable this feature, add '-model_secondary 1' in commandline
+README_archive/README-5.0:or in hotspot.config. Currently, the secondary heat tranfer path mode is
+Binary file temperature_block.o matches
+temperature.c:	/* secondary heat transfer path */
+temperature.c:	config.model_secondary = FALSE;
+temperature.c:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+temperature.c:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+temperature.c:			fatal("invalid format for configuration  parameter model_secondary\n");
+temperature.c:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+temperature.c:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+temperature.c:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+temperature.c:	sprintf(table[17].name, "model_secondary");
+temperature.c:	sprintf(table[17].value, "%d", config->model_secondary);
+temperature.c_2.5D:	/* secondary heat transfer path */
+temperature.c_2.5D:	config.model_secondary = FALSE;
+temperature.c_2.5D:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+temperature.c_2.5D:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+temperature.c_2.5D:			fatal("invalid format for configuration  parameter model_secondary\n");
+temperature.c_2.5D:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+temperature.c_2.5D:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+temperature.c_2.5D:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+temperature.c_2.5D:	sprintf(table[17].name, "model_secondary");
+temperature.c_2.5D:	sprintf(table[17].value, "%d", config->model_secondary);
+temperature.c_3D:	/* secondary heat transfer path */
+temperature.c_3D:	config.model_secondary = FALSE;
+temperature.c_3D:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+temperature.c_3D:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+temperature.c_3D:			fatal("invalid format for configuration  parameter model_secondary\n");
+temperature.c_3D:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+temperature.c_3D:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+temperature.c_3D:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+temperature.c_3D:	sprintf(table[17].name, "model_secondary");
+temperature.c_3D:	sprintf(table[17].value, "%d", config->model_secondary);
+temperature.c_air:	/* secondary heat transfer path */
+temperature.c_air:	config.model_secondary = FALSE;
+temperature.c_air:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+temperature.c_air:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+temperature.c_air:			fatal("invalid format for configuration  parameter model_secondary\n");
+temperature.c_air:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+temperature.c_air:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+temperature.c_air:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+temperature.c_air:	sprintf(table[17].name, "model_secondary");
+temperature.c_air:	sprintf(table[17].value, "%d", config->model_secondary);
+temperature.c_gold:	/* secondary heat transfer path */
+temperature.c_gold:	config.model_secondary = FALSE;
+temperature.c_gold:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+temperature.c_gold:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+temperature.c_gold:			fatal("invalid format for configuration  parameter model_secondary\n");
+temperature.c_gold:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+temperature.c_gold:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+temperature.c_gold:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+temperature.c_gold:	sprintf(table[17].name, "model_secondary");
+temperature.c_gold:	sprintf(table[17].value, "%d", config->model_secondary);
+temperature.c_leak:	/* secondary heat transfer path */
+temperature.c_leak:	config.model_secondary = FALSE;
+temperature.c_leak:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+temperature.c_leak:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+temperature.c_leak:			fatal("invalid format for configuration  parameter model_secondary\n");
+temperature.c_leak:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+temperature.c_leak:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+temperature.c_leak:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+temperature.c_leak:	sprintf(table[17].name, "model_secondary");
+temperature.c_leak:	sprintf(table[17].value, "%d", config->model_secondary);
+temperature.c_orignal:	/* secondary heat transfer path */
+temperature.c_orignal:	config.model_secondary = FALSE;
+temperature.c_orignal:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+temperature.c_orignal:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+temperature.c_orignal:			fatal("invalid format for configuration  parameter model_secondary\n");
+temperature.c_orignal:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+temperature.c_orignal:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+temperature.c_orignal:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+temperature.c_orignal:	sprintf(table[17].name, "model_secondary");
+temperature.c_orignal:	sprintf(table[17].value, "%d", config->model_secondary);
+temperature.c_package2_5D:	/* secondary heat transfer path */
+temperature.c_package2_5D:	config.model_secondary = FALSE;
+temperature.c_package2_5D:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+temperature.c_package2_5D:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+temperature.c_package2_5D:			fatal("invalid format for configuration  parameter model_secondary\n");
+temperature.c_package2_5D:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+temperature.c_package2_5D:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+temperature.c_package2_5D:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+temperature.c_package2_5D:	sprintf(table[17].name, "model_secondary");
+temperature.c_package2_5D:	sprintf(table[17].value, "%d", config->model_secondary);
+temperature.c_updated:	/* secondary heat transfer path */
+temperature.c_updated:	config.model_secondary = FALSE;
+temperature.c_updated:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+temperature.c_updated:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+temperature.c_updated:			fatal("invalid format for configuration  parameter model_secondary\n");
+temperature.c_updated:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+temperature.c_updated:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+temperature.c_updated:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+temperature.c_updated:	sprintf(table[17].name, "model_secondary");
+temperature.c_updated:	sprintf(table[17].value, "%d", config->model_secondary);
+temperature_grid.c:  if (!model->config.model_secondary) {
+temperature_grid.c:  if (model->config.model_secondary) {
+temperature_grid.c:  if (model->config.model_secondary) {
+temperature_grid.c:  if (!model->config.model_secondary){
+temperature_grid.c://   if (!model->config.model_secondary) {
+temperature_grid.c://   if (model->config.model_secondary) {
+temperature_grid.c:  if (!model->config.model_secondary) {
+temperature_grid.c:  if (!model->config.model_secondary) {
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if(model_secondary){
+temperature_grid.c:      if(model_secondary){
+temperature_grid.c:      //if (model_secondary && (i == pcbidx)){
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if(model_secondary){
+temperature_grid.c:  if (model_secondary) {
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if (model_secondary){
+temperature_grid.c:      if(model_secondary){
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c:  if (!model->config.model_secondary) {
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if (model_secondary){
+temperature_grid.c:  if (model_secondary) {
+temperature_grid.c:      if (!model_secondary) {
+temperature_grid.c:  if (!model->config.model_secondary)
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c:  if (model_secondary) {
+temperature_grid.c:      if (!model_secondary) {
+temperature_grid.c:  if (!model->config.model_secondary) {
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c:  if (!model->config.model_secondary)
+temperature_grid.c:  if (model->config.model_secondary) {
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if (model_secondary) {
+temperature_grid.c:  if (model->config.model_secondary) {
+temperature_grid.c:      /* secondary path package nodes */
+temperature_grid.c:  if (!model->config.model_secondary) {
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if (model_secondary) {
+temperature_grid.c:              } else if ((n==subidx) && model->config.model_secondary) {
+temperature_grid.c:              } else if ((n==solderidx) && model->config.model_secondary) {
+temperature_grid.c:              } else if ((n==pcbidx) && model->config.model_secondary) {
+temperature_grid.c:  if (!model->config.model_secondary)
+temperature_grid.c:  if (!model->config.model_secondary) 
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if (model_secondary) {
+temperature_grid.c:  if (model_secondary) {
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if (model_secondary) {
+temperature_grid.c:          }	else if (n == pcbidx && model_secondary) {
+temperature_grid.c:          }	else if (n == subidx && model_secondary) {
+temperature_grid.c:          }	else if (n == solderidx && model_secondary) {
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if(model_secondary){
+temperature_grid.c:  if(model_secondary){
+temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c:  if(model_secondary){
+temperature_grid.c:      /* secondary path package nodes */
+temperature_grid.c:  int model_secondary = model->config.model_secondary;
+temperature_grid.c:  if(model_secondary){
+temperature_grid.c:          else if((l == pcbidx) && model_secondary){
+temperature_grid.c:  if(model_secondary){
+temperature_grid.c:  if (model->config.model_secondary){
+temperature_grid.c_golden:  if (!model->config.model_secondary) {
+temperature_grid.c_golden:  if (model->config.model_secondary) {
+temperature_grid.c_golden:  if (model->config.model_secondary) {
+temperature_grid.c_golden:  if (!model->config.model_secondary){
+temperature_grid.c_golden://   if (!model->config.model_secondary) {
+temperature_grid.c_golden://   if (model->config.model_secondary) {
+temperature_grid.c_golden:  if (!model->config.model_secondary) {
+temperature_grid.c_golden:  if (!model->config.model_secondary) {
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if(model_secondary){
+temperature_grid.c_golden:      if(model_secondary){
+temperature_grid.c_golden:      //if (model_secondary && (i == pcbidx)){
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if(model_secondary){
+temperature_grid.c_golden:  if (model_secondary) {		
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if (model_secondary){
+temperature_grid.c_golden:      if(model_secondary){
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.c_golden:  if (!model->config.model_secondary) {
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if (model_secondary)
+temperature_grid.c_golden:  if (model_secondary) {
+temperature_grid.c_golden:      if (!model_secondary) {
+temperature_grid.c_golden:  if (!model->config.model_secondary)
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.c_golden:  if (model_secondary) {
+temperature_grid.c_golden:      if (!model_secondary) {
+temperature_grid.c_golden:  if (!model->config.model_secondary) {
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.c_golden:  if (!model->config.model_secondary)
+temperature_grid.c_golden:  if (model->config.model_secondary) {
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if (model_secondary) {
+temperature_grid.c_golden:  if (model->config.model_secondary) {
+temperature_grid.c_golden:      /* secondary path package nodes */
+temperature_grid.c_golden:  if (!model->config.model_secondary) {
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if (model_secondary) {
+temperature_grid.c_golden:              } else if ((n==subidx) && model->config.model_secondary) {
+temperature_grid.c_golden:              } else if ((n==solderidx) && model->config.model_secondary) {
+temperature_grid.c_golden:              } else if ((n==pcbidx) && model->config.model_secondary) {
+temperature_grid.c_golden:  if (!model->config.model_secondary)
+temperature_grid.c_golden:  if (!model->config.model_secondary) 
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if (model_secondary) {
+temperature_grid.c_golden:  if (model_secondary) {
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if (model_secondary) {
+temperature_grid.c_golden:          }	else if (n == pcbidx && model_secondary) {
+temperature_grid.c_golden:          }	else if (n == subidx && model_secondary) {
+temperature_grid.c_golden:          }	else if (n == solderidx && model_secondary) {
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if(model_secondary){
+temperature_grid.c_golden:  if(model_secondary){
+temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+temperature_grid.c_golden:  if(model_secondary){
+temperature_grid.c_golden:      /* secondary path package nodes */
+temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+temperature_grid.c_golden:  if(model_secondary)
+temperature_grid.c_golden:          else if((l == pcbidx) && model_secondary){
+temperature_grid.c_golden:  if(model_secondary){
+temperature_grid.c_golden:  if (model->config.model_secondary)
+temperature_grid.h:/* layers of secondary path with same area as die */
+temperature_grid.h:/* additional package layers from secondary path */
+Binary file temperature_grid.o matches
+temperature.h:/* secondary extra nodes */
+temperature.h:/* typical thermal properties for secondary path layers */
+temperature.h:	/* secondary path specs */
+temperature.h:	int model_secondary;
+temperature.h:	/* secondary path R's and C's */
+Binary file temperature.o matches
+Validation.config:	# secondary path (C4/underfill, package substrate, solder balls etc)
+Validation.config:		# model secondary path or not?
+Validation.config:		-model_secondary	0
+x:gen_x:echo "model_secondary:" > x
+x:gen_x:grep -ir "model_secondary" *.c	>> x
+x:hotspot.config:	# secondary path (C4/underfill, package substrate, solder balls etc)
+x:hotspot.config:		# model secondary path or not?
+x:hotspot.config:		-model_secondary	0
+x:hotspot-iface.h:	int model_secondary;
+x:HOWTO:        5) The secondary heat transfer path
+x:HOWTO:5. The secondary heat transfer path:
+x:HOWTO:HotSpot also models the secondary heat transfer path from the silicon 
+x:HOWTO:with forced air-convection, the effect of secondary heat transfer path 
+x:HOWTO:oil flow for infrared thermal measurements, secondary heat transfer
+x:HOWTO:the secondary path:
+x:HOWTO:					 -model_secondary 1 -model_type grid
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary){
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/Original/temperature_grid.c:      if(model_secondary){
+x:LocalPatches/Original/temperature_grid.c:      //if (model_secondary && (i == pcbidx)){
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/Original/temperature_grid.c:  if (model_secondary) {		
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if (model_secondary){
+x:LocalPatches/Original/temperature_grid.c:      if(model_secondary){
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if (model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:      if (!model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:      if (!model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:      /* secondary path package nodes */
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:              } else if ((n==subidx) && model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:              } else if ((n==solderidx) && model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:              } else if ((n==pcbidx) && model->config.model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (!model->config.model_secondary) 
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:          }	else if (n == pcbidx && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:          }	else if (n == subidx && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:          }	else if (n == solderidx && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/Original/temperature_grid.c:      /* secondary path package nodes */
+x:LocalPatches/Original/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/Original/temperature_grid.c:  if(model_secondary)
+x:LocalPatches/Original/temperature_grid.c:          else if((l == pcbidx) && model_secondary){
+x:LocalPatches/Original/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/Original/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:      if(model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:      //if (model_secondary && (i == pcbidx)){
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {		
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:      if(model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:      if (!model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:      if (!model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:      /* secondary path package nodes */
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:              } else if ((n==subidx) && model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:              } else if ((n==solderidx) && model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:              } else if ((n==pcbidx) && model->config.model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (!model->config.model_secondary) 
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:          }	else if (n == pcbidx && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:          }	else if (n == subidx && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:          }	else if (n == solderidx && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:      /* secondary path package nodes */
+x:LocalPatches/All_Layers/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary)
+x:LocalPatches/All_Layers/temperature_grid.c:          else if((l == pcbidx) && model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/All_Layers/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:      if(model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:      //if (model_secondary && (i == pcbidx)){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {		
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:      if(model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:      if (!model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:      if (!model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:      /* secondary path package nodes */
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:              } else if ((n==subidx) && model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:              } else if ((n==solderidx) && model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:              } else if ((n==pcbidx) && model->config.model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (!model->config.model_secondary) 
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:          }	else if (n == pcbidx && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:          }	else if (n == subidx && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:          }	else if (n == solderidx && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:      /* secondary path package nodes */
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary)
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:          else if((l == pcbidx) && model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/Orig/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:      if(model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:      //if (model_secondary && (i == pcbidx)){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {		
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:      if(model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:      if (!model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:      if (!model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:      /* secondary path package nodes */
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:              } else if ((n==subidx) && model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:              } else if ((n==solderidx) && model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:              } else if ((n==pcbidx) && model->config.model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (!model->config.model_secondary) 
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:          }	else if (n == pcbidx && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:          }	else if (n == subidx && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:          }	else if (n == solderidx && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:      /* secondary path package nodes */
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary)
+x:LocalPatches/L2/Changes/New/temperature_grid.c:          else if((l == pcbidx) && model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if(model_secondary){
+x:LocalPatches/L2/Changes/New/temperature_grid.c:  if (model->config.model_secondary)
+x:oil_bare_silicon.config:# It demonstrates the importance of secondary heat transfer path 
+x:oil_bare_silicon.config:	# secondary path (C4/underfill, package substrate, solder balls etc)
+x:oil_bare_silicon.config:		# model secondary path or not?
+x:oil_bare_silicon.config:		-model_secondary	1
+x:README-6.0:4) Secondary heat transfer path compatible with 3D.
+x:README-6.0:Previous version does not support secondary heat transfer path when .lcf file is specified.
+x:README-6.0:This version relaxes this constraint and now secondary heat transfer path can be modeled along
+x:README_archive/README-5.0:2) New Feature #2: Secondary heat transfer path
+x:README_archive/README-5.0:OPTIONAL: Package layers along the secondary heat tranfer path 
+x:README_archive/README-5.0:secondary heat transfer path can be neglected. However, in special cases 
+x:README_archive/README-5.0:such as oil flow over bare silicon die, the secondary heat transfer path
+x:README_archive/README-5.0:paper). To enable this feature, add '-model_secondary 1' in commandline
+x:README_archive/README-5.0:or in hotspot.config. Currently, the secondary heat tranfer path mode is
+x:temperature.c:	/* secondary heat transfer path */
+x:temperature.c:	config.model_secondary = FALSE;
+x:temperature.c:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+x:temperature.c:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+x:temperature.c:			fatal("invalid format for configuration  parameter model_secondary\n");
+x:temperature.c:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+x:temperature.c:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+x:temperature.c:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+x:temperature.c:	sprintf(table[17].name, "model_secondary");
+x:temperature.c:	sprintf(table[17].value, "%d", config->model_secondary);
+x:temperature.c_2.5D:	/* secondary heat transfer path */
+x:temperature.c_2.5D:	config.model_secondary = FALSE;
+x:temperature.c_2.5D:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+x:temperature.c_2.5D:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+x:temperature.c_2.5D:			fatal("invalid format for configuration  parameter model_secondary\n");
+x:temperature.c_2.5D:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+x:temperature.c_2.5D:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+x:temperature.c_2.5D:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+x:temperature.c_2.5D:	sprintf(table[17].name, "model_secondary");
+x:temperature.c_2.5D:	sprintf(table[17].value, "%d", config->model_secondary);
+x:temperature.c_3D:	/* secondary heat transfer path */
+x:temperature.c_3D:	config.model_secondary = FALSE;
+x:temperature.c_3D:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+x:temperature.c_3D:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+x:temperature.c_3D:			fatal("invalid format for configuration  parameter model_secondary\n");
+x:temperature.c_3D:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+x:temperature.c_3D:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+x:temperature.c_3D:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+x:temperature.c_3D:	sprintf(table[17].name, "model_secondary");
+x:temperature.c_3D:	sprintf(table[17].value, "%d", config->model_secondary);
+x:temperature.c_air:	/* secondary heat transfer path */
+x:temperature.c_air:	config.model_secondary = FALSE;
+x:temperature.c_air:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+x:temperature.c_air:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+x:temperature.c_air:			fatal("invalid format for configuration  parameter model_secondary\n");
+x:temperature.c_air:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+x:temperature.c_air:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+x:temperature.c_air:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+x:temperature.c_air:	sprintf(table[17].name, "model_secondary");
+x:temperature.c_air:	sprintf(table[17].value, "%d", config->model_secondary);
+x:temperature.c_gold:	/* secondary heat transfer path */
+x:temperature.c_gold:	config.model_secondary = FALSE;
+x:temperature.c_gold:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+x:temperature.c_gold:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+x:temperature.c_gold:			fatal("invalid format for configuration  parameter model_secondary\n");
+x:temperature.c_gold:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+x:temperature.c_gold:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+x:temperature.c_gold:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+x:temperature.c_gold:	sprintf(table[17].name, "model_secondary");
+x:temperature.c_gold:	sprintf(table[17].value, "%d", config->model_secondary);
+x:temperature.c_leak:	/* secondary heat transfer path */
+x:temperature.c_leak:	config.model_secondary = FALSE;
+x:temperature.c_leak:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+x:temperature.c_leak:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+x:temperature.c_leak:			fatal("invalid format for configuration  parameter model_secondary\n");
+x:temperature.c_leak:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+x:temperature.c_leak:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+x:temperature.c_leak:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+x:temperature.c_leak:	sprintf(table[17].name, "model_secondary");
+x:temperature.c_leak:	sprintf(table[17].value, "%d", config->model_secondary);
+x:temperature.c_orignal:	/* secondary heat transfer path */
+x:temperature.c_orignal:	config.model_secondary = FALSE;
+x:temperature.c_orignal:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+x:temperature.c_orignal:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+x:temperature.c_orignal:			fatal("invalid format for configuration  parameter model_secondary\n");
+x:temperature.c_orignal:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+x:temperature.c_orignal:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+x:temperature.c_orignal:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+x:temperature.c_orignal:	sprintf(table[17].name, "model_secondary");
+x:temperature.c_orignal:	sprintf(table[17].value, "%d", config->model_secondary);
+x:temperature.c_package2_5D:	/* secondary heat transfer path */
+x:temperature.c_package2_5D:	config.model_secondary = FALSE;
+x:temperature.c_package2_5D:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+x:temperature.c_package2_5D:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+x:temperature.c_package2_5D:			fatal("invalid format for configuration  parameter model_secondary\n");
+x:temperature.c_package2_5D:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+x:temperature.c_package2_5D:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+x:temperature.c_package2_5D:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+x:temperature.c_package2_5D:	sprintf(table[17].name, "model_secondary");
+x:temperature.c_package2_5D:	sprintf(table[17].value, "%d", config->model_secondary);
+x:temperature.c_updated:	/* secondary heat transfer path */
+x:temperature.c_updated:	config.model_secondary = FALSE;
+x:temperature.c_updated:	if ((idx = get_str_index(table, size, "model_secondary")) >= 0)
+x:temperature.c_updated:		if(sscanf(table[idx].value, "%d", &config->model_secondary) != 1)
+x:temperature.c_updated:			fatal("invalid format for configuration  parameter model_secondary\n");
+x:temperature.c_updated:		fatal("secondary heat tranfer layer dimensions should be greater than zero\n");
+x:temperature.c_updated:	if ((config->model_secondary == 1) && (!strcasecmp(config->model_type, BLOCK_MODEL_STR)))
+x:temperature.c_updated:		fatal("secondary heat tranfer path is supported only in the grid mode\n");	
+x:temperature.c_updated:	sprintf(table[17].name, "model_secondary");
+x:temperature.c_updated:	sprintf(table[17].value, "%d", config->model_secondary);
+x:temperature_grid.c:  if (!model->config.model_secondary) {
+x:temperature_grid.c:  if (model->config.model_secondary) {
+x:temperature_grid.c:  if (model->config.model_secondary) {
+x:temperature_grid.c:  if (!model->config.model_secondary){
+x:temperature_grid.c://   if (!model->config.model_secondary) {
+x:temperature_grid.c://   if (model->config.model_secondary) {
+x:temperature_grid.c:  if (!model->config.model_secondary) {
+x:temperature_grid.c:  if (!model->config.model_secondary) {
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if(model_secondary){
+x:temperature_grid.c:      if(model_secondary){
+x:temperature_grid.c:      //if (model_secondary && (i == pcbidx)){
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if(model_secondary){
+x:temperature_grid.c:  if (model_secondary) {
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if (model_secondary){
+x:temperature_grid.c:      if(model_secondary){
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c:  if (!model->config.model_secondary) {
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if (model_secondary){
+x:temperature_grid.c:  if (model_secondary) {
+x:temperature_grid.c:      if (!model_secondary) {
+x:temperature_grid.c:  if (!model->config.model_secondary)
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c:  if (model_secondary) {
+x:temperature_grid.c:      if (!model_secondary) {
+x:temperature_grid.c:  if (!model->config.model_secondary) {
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c:  if (!model->config.model_secondary)
+x:temperature_grid.c:  if (model->config.model_secondary) {
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if (model_secondary) {
+x:temperature_grid.c:  if (model->config.model_secondary) {
+x:temperature_grid.c:      /* secondary path package nodes */
+x:temperature_grid.c:  if (!model->config.model_secondary) {
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if (model_secondary) {
+x:temperature_grid.c:              } else if ((n==subidx) && model->config.model_secondary) {
+x:temperature_grid.c:              } else if ((n==solderidx) && model->config.model_secondary) {
+x:temperature_grid.c:              } else if ((n==pcbidx) && model->config.model_secondary) {
+x:temperature_grid.c:  if (!model->config.model_secondary)
+x:temperature_grid.c:  if (!model->config.model_secondary) 
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if (model_secondary) {
+x:temperature_grid.c:  if (model_secondary) {
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if (model_secondary) {
+x:temperature_grid.c:          }	else if (n == pcbidx && model_secondary) {
+x:temperature_grid.c:          }	else if (n == subidx && model_secondary) {
+x:temperature_grid.c:          }	else if (n == solderidx && model_secondary) {
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if(model_secondary){
+x:temperature_grid.c:  if(model_secondary){
+x:temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c:  if(model_secondary){
+x:temperature_grid.c:      /* secondary path package nodes */
+x:temperature_grid.c:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c:  if(model_secondary){
+x:temperature_grid.c:          else if((l == pcbidx) && model_secondary){
+x:temperature_grid.c:  if(model_secondary){
+x:temperature_grid.c:  if (model->config.model_secondary){
+x:temperature_grid.c_golden:  if (!model->config.model_secondary) {
+x:temperature_grid.c_golden:  if (model->config.model_secondary) {
+x:temperature_grid.c_golden:  if (model->config.model_secondary) {
+x:temperature_grid.c_golden:  if (!model->config.model_secondary){
+x:temperature_grid.c_golden://   if (!model->config.model_secondary) {
+x:temperature_grid.c_golden://   if (model->config.model_secondary) {
+x:temperature_grid.c_golden:  if (!model->config.model_secondary) {
+x:temperature_grid.c_golden:  if (!model->config.model_secondary) {
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if(model_secondary){
+x:temperature_grid.c_golden:      if(model_secondary){
+x:temperature_grid.c_golden:      //if (model_secondary && (i == pcbidx)){
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if(model_secondary){
+x:temperature_grid.c_golden:  if (model_secondary) {		
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if (model_secondary){
+x:temperature_grid.c_golden:      if(model_secondary){
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.c_golden:  if (!model->config.model_secondary) {
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if (model_secondary)
+x:temperature_grid.c_golden:  if (model_secondary) {
+x:temperature_grid.c_golden:      if (!model_secondary) {
+x:temperature_grid.c_golden:  if (!model->config.model_secondary)
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.c_golden:  if (model_secondary) {
+x:temperature_grid.c_golden:      if (!model_secondary) {
+x:temperature_grid.c_golden:  if (!model->config.model_secondary) {
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.c_golden:  if (!model->config.model_secondary)
+x:temperature_grid.c_golden:  if (model->config.model_secondary) {
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if (model_secondary) {
+x:temperature_grid.c_golden:  if (model->config.model_secondary) {
+x:temperature_grid.c_golden:      /* secondary path package nodes */
+x:temperature_grid.c_golden:  if (!model->config.model_secondary) {
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if (model_secondary) {
+x:temperature_grid.c_golden:              } else if ((n==subidx) && model->config.model_secondary) {
+x:temperature_grid.c_golden:              } else if ((n==solderidx) && model->config.model_secondary) {
+x:temperature_grid.c_golden:              } else if ((n==pcbidx) && model->config.model_secondary) {
+x:temperature_grid.c_golden:  if (!model->config.model_secondary)
+x:temperature_grid.c_golden:  if (!model->config.model_secondary) 
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if (model_secondary) {
+x:temperature_grid.c_golden:  if (model_secondary) {
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if (model_secondary) {
+x:temperature_grid.c_golden:          }	else if (n == pcbidx && model_secondary) {
+x:temperature_grid.c_golden:          }	else if (n == subidx && model_secondary) {
+x:temperature_grid.c_golden:          }	else if (n == solderidx && model_secondary) {
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if(model_secondary){
+x:temperature_grid.c_golden:  if(model_secondary){
+x:temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==subidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==solderidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c_golden:                else if ((l==pcbidx) && model_secondary) {
+x:temperature_grid.c_golden:  if(model_secondary){
+x:temperature_grid.c_golden:      /* secondary path package nodes */
+x:temperature_grid.c_golden:  int model_secondary = model->config.model_secondary;
+x:temperature_grid.c_golden:  if(model_secondary)
+x:temperature_grid.c_golden:          else if((l == pcbidx) && model_secondary){
+x:temperature_grid.c_golden:  if(model_secondary){
+x:temperature_grid.c_golden:  if (model->config.model_secondary)
+x:temperature_grid.h:/* layers of secondary path with same area as die */
+x:temperature_grid.h:/* additional package layers from secondary path */
+x:temperature.h:/* secondary extra nodes */
+x:temperature.h:/* typical thermal properties for secondary path layers */
+x:temperature.h:	/* secondary path specs */
+x:temperature.h:	int model_secondary;
+x:temperature.h:	/* secondary path R's and C's */
+x:Validation.config:	# secondary path (C4/underfill, package substrate, solder balls etc)
+x:Validation.config:		# model secondary path or not?
+x:Validation.config:		-model_secondary	0

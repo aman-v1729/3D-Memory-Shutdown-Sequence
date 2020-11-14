@@ -1,0 +1,21 @@
+Binary file hotfloorplan matches
+Binary file hotspot matches
+hotspot.d: /home/siddhulokesh/SLU/SuperLU_4.3/SRC/supermatrix.h \
+Binary file libhotspot.a matches
+temperature.d: /home/siddhulokesh/SLU/SuperLU_4.3/SRC/supermatrix.h \
+temperature_grid.c:SuperMatrix build_steady_grid_matrix(grid_model_t *model)
+temperature_grid.c:  SuperMatrix A;
+temperature_grid.c:SuperMatrix build_steady_rhs_vector(grid_model_t *model, grid_model_vector_t *power, double **rhs)
+temperature_grid.c:  SuperMatrix B;
+temperature_grid.c:  SuperMatrix A, L, U, B;
+temperature_grid.c:  Destroy_SuperMatrix_Store(&B);
+temperature_grid.c_golden:SuperMatrix build_steady_grid_matrix(grid_model_t *model)
+temperature_grid.c_golden:  SuperMatrix A;
+temperature_grid.c_golden:SuperMatrix build_steady_rhs_vector(grid_model_t *model, grid_model_vector_t *power, double **rhs)
+temperature_grid.c_golden:  SuperMatrix B;
+temperature_grid.c_golden:  SuperMatrix A, L, U, B;
+temperature_grid.c_golden:  Destroy_SuperMatrix_Store(&B);
+temperature_grid.d: /home/siddhulokesh/SLU/SuperLU_4.3/SRC/supermatrix.h \
+temperature_grid.h:SuperMatrix build_steady_grid_matrix(grid_model_t *model);
+temperature_grid.h:SuperMatrix build_steady_rhs_vector(grid_model_t *model, grid_model_vector_t *power, double **rhs);
+Binary file temperature_grid.o matches

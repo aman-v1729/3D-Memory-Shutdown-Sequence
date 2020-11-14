@@ -1,0 +1,36 @@
+Binary file libhotspot.a matches
+temperature.c_gold://		steady_state_temp_grid(model->grid, power, temp);
+temperature.c_gold:				steady_state_temp_grid(model->grid, power_new, temp);
+temperature.c_gold:			steady_state_temp_grid(model->grid, power, temp);
+temperature.c_3D://		steady_state_temp_grid(model->grid, power, temp);
+temperature.c_3D:				steady_state_temp_grid(model->grid, power_new, temp);
+temperature.c_3D:			steady_state_temp_grid(model->grid, power, temp);
+temperature.c_2.5D://		steady_state_temp_grid(model->grid, power, temp);
+temperature.c_2.5D:				steady_state_temp_grid(model->grid, power_new, temp);
+temperature.c_2.5D:			steady_state_temp_grid(model->grid, power, temp);
+Binary file temperature.o matches
+Binary file hotspot matches
+temperature.c://		steady_state_temp_grid(model->grid, power, temp);
+temperature.c:				steady_state_temp_grid(model->grid, power_new, temp);
+temperature.c:			steady_state_temp_grid(model->grid, power, temp);
+temperature.c_orignal://		steady_state_temp_grid(model->grid, power, temp);
+temperature.c_orignal:				steady_state_temp_grid(model->grid, power_new, temp);
+temperature.c_orignal:			steady_state_temp_grid(model->grid, power, temp);
+temperature.c_updated://		steady_state_temp_grid(model->grid, power, temp);
+temperature.c_updated:				steady_state_temp_grid(model->grid, power_new, temp);
+temperature.c_updated:			steady_state_temp_grid(model->grid, power, temp);
+temperature_grid.h:void steady_state_temp_grid(grid_model_t *model, double *power, double *temp);
+temperature_mobile.c:void steady_state_temp_grid(grid_model_t *model, double *power, double *temp)
+temperature.c_leak://		steady_state_temp_grid(model->grid, power, temp);
+temperature.c_leak:				steady_state_temp_grid(model->grid, power_new, temp);
+temperature.c_leak:			steady_state_temp_grid(model->grid, power, temp);
+Binary file temperature_grid.o matches
+Binary file hotfloorplan matches
+LocalPatches/Original/temperature_grid.c:void steady_state_temp_grid(grid_model_t *model, double *power, double *temp)
+LocalPatches/All_Layers/temperature_grid.c:void steady_state_temp_grid(grid_model_t *model, double *power, double *temp)
+LocalPatches/L2/Changes/Orig/temperature_grid.c:void steady_state_temp_grid(grid_model_t *model, double *power, double *temp)
+LocalPatches/L2/Changes/New/temperature_grid.c:void steady_state_temp_grid(grid_model_t *model, double *power, double *temp)
+temperature_grid.c:void steady_state_temp_grid(grid_model_t *model, double *power, double *temp)
+temperature.c_air://		steady_state_temp_grid(model->grid, power, temp);
+temperature.c_air:				steady_state_temp_grid(model->grid, power_new, temp);
+temperature.c_air:			steady_state_temp_grid(model->grid, power, temp);

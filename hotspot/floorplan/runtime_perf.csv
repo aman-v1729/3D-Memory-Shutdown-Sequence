@@ -1,0 +1,12 @@
+Workload,Baseline,TAM,FastCool
+povray,1,1,1
+perlbench,1,1,1
+ppbg,1,1,1
+bwaves,1,1,1
+GemsFDTD,1,0.57,0.57
+ppsl,1,0.7,0.7
+soplex,1,0.63,0.63
+bgsl,1,0.45,0.45
+pllg,1,0.34,0.34
+lbm,1,0.57,0.56
+Average,1,0.73,0.73
